@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <h1 id="display">Even or odd game 😉😎 !!</h1>
+
+      <div class="container">
+        <p>Attemtps</p>
+        <p id="attemtps">0</p>
+      </div>
+
+      <div class="container">
+        <p>Score</p>
+        <p id="score">0</p>
+      </div>
+      <h2>I think of a number do you think it is odd or even?</h2>
+    </div>
+
+    <div class="userControl">
+      <button onclick="guess('even')">Even</button>
+      <button onclick="guess('odd')">Odd</button>
+    </div>
+    <audio src="./correct.mp3" id="correct"></audio>
+    <audio src="./wrong.mp3" id="wrong"></audio>
+    <script src="./c63.js"></script>
+  </body>
+</html>
